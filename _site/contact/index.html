@@ -43,24 +43,23 @@
       <!-- SEO Tags -->
 
         <!-- Begin Jekyll SEO tag v2.0.0 -->
-<title>Make your Arizona dream home a reality! | Tequa Builders, Phoenix, Arizona’s premiere licensed and bonded General Contractors. - Tequa Builders</title>
-<meta property="og:title" content="Make your Arizona dream home a reality! | Tequa Builders, Phoenix, Arizona’s premiere licensed and bonded General Contractors." />
-<meta name="description" content="Make your dream home a reality!" />
-<meta property="og:description" content="Make your dream home a reality!" />
-<link rel="canonical" href="http://tequabuilders.com/" />
-<meta property="og:url" content="http://tequabuilders.com/" />
+<title>Contact Us - Tequa Builders</title>
+<meta property="og:title" content="Contact Us" />
+<meta name="description" content="            Let’s work together! Send us an email or give us a call      Tequa Builders, Phoenix, Arizona’s premiere licensed and bonded General Contractors.      " />
+<meta property="og:description" content="            Let’s work together! Send us an email or give us a call      Tequa Builders, Phoenix, Arizona’s premiere licensed and bonded General Contractors.      " />
+<link rel="canonical" href="http://tequabuilders.com/contact/" />
+<meta property="og:url" content="http://tequabuilders.com/contact/" />
 <meta property="og:site_name" content="Tequa Builders" />
-<meta property="og:image" content="http://tequabuilders.com/img/homepage.jpg" />
+<meta property="og:image" content="http://tequabuilders.com/img/sunset.jpg" />
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "Tequa Builders",
-    "headline": "Make your Arizona dream home a reality! | Tequa Builders, Phoenix, Arizona’s premiere licensed and bonded General Contractors.",
-    "image": "http://tequabuilders.com/img/homepage.jpg",
-    "description": "Make your dream home a reality!",
+    "@type": "WebPage",
+    "headline": "Contact Us",
+    "image": "http://tequabuilders.com/img/sunset.jpg",
+    "description": "            Let’s work together! Send us an email or give us a call      Tequa Builders, Phoenix, Arizona’s premiere licensed and bonded General Contractors.      ",
     "logo": "http://tequabuilders.com/img/logo-lrg.png",
-    "url": "http://tequabuilders.com/"
+    "url": "http://tequabuilders.com/contact/"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -122,7 +121,7 @@
                     
 
                     <a href="/">
-                        <button class="active">Home</button>
+                        <button class="">Home</button>
                     </a>
                 
                     
@@ -140,7 +139,7 @@
                     
 
                     <a href="/contact/">
-                        <button class="">Contact</button>
+                        <button class="active">Contact</button>
                     </a>
                 
             </div>
@@ -150,84 +149,103 @@
 
 	<!-- Top Image -->
     
-    <aside class="callout" id="imageheader-home" data-speed="6" data-type="background" role="img" aria-label="Modern Kitchen with Orange Cabinets">
+    <aside class="callout" id="imageheader-contact" data-speed="6" data-type="background" role="img" aria-label="Arizona Sunset">
         <div class="text-vertical-center">
             <h1 class="whitebox">
-                Make your dream home a reality!
+                Let's work together!
             </h1>
         </div>
     </aside>
     
-<!-- Textbox -->
+<!-- Contact form -->
     
-    <section>
+    <div class="orangebox">
         <div class="container" id="infobox">
             <div class="row">
-                <div class="col-md-12">
-                    <p>
-                        Are you looking for a General Contractor who is reasonably priced and will get the job done right? You’ve come to the right place! While we may not be the biggest or oldest builder in the Valley, we strive to be the best through personalized service and excellent attention to detail. <strong>We are the builder you can trust</strong> to get the best out of your investment!
-                    </p>
-                    <p>
-                        Serving the Phoenix Metropolitan area, from the East to Central Valley, specializing in residential and small commercial construction, construction management and remodeling ...
-                    </p>
-                    <h3 style="padding-bottom: 15px">
-                        No job is too small!
-                    </h3>
-                    <a href="/contact" title="Send us a message!">
-                        <button>
-                            Get a quote today!
+                <div class="col-sm-8">
+                    <form id="contact-form" action="//formspree.io/jd@tequabuilders.com" method="POST">
+
+                      <!-- Redirect -->
+
+                        <input type="hidden" name="_next" value="/thanks/" />
+
+                      <!-- Name Input -->
+
+                        <div class="form-group">
+                          <label for="name">
+                            Name <em>(required)</em>
+                          </label>
+                          <input type="text" name="name" placeholder="Enter your name here" class="form-control" required />
+                        </div>
+
+                      <!-- Email Input -->
+
+                        <div class="form-group">
+                          <label for="email">
+                            Email <em>(required)</em>
+                          </label>
+                          <input type="email" name="_replyto" placeholder="Enter your email here" class="form-control" required />
+                        </div>
+
+                      <!-- Phone Input -->
+
+                        <div class="form-group">
+                          <label for="phone">
+                            Phone
+                          </label>
+                          <input type="tel" name="phone" placeholder="Enter your phone number here" class="form-control" />
+                        </div>
+
+                      <!-- Subject Input -->
+
+                        <div class="form-group">
+                          <label for="email">
+                            Subject <em>(required)</em>
+                          </label>
+                          <input type="text" name="subject" placeholder="Enter your subject here" class="form-control" required />
+                        </div>
+
+                      <!-- Message Input -->
+
+                        <div class="form-group">
+                          <label for="message">
+                            Message <em>(required)</em>
+                          </label>  
+                          <textarea name="message" placeholder="Type your message in here" class="form-control" required></textarea>
+                        </div>
+
+                      <!-- Submit Button -->
+                        <button type="submit" class="button">
+                          Submit
                         </button>
-                    </a>
+
+                    </form>
+                </div>
+                <div class="col-sm-4">
+                    <h3>
+                        Tequa Builders, LLC.
+                    </h3>
+                    <p>
+                        General Contractor / Home Builder
+                        Licensed / Bonded / Insured
+                        ROC # 275819
+                    </p>
+                    <h3>
+                        Location:
+                    </h3>
+                    <p>
+                        Mesa, Arizona
+                    </p>
+                    <h3>
+                        Phone:
+                    </h3>
+                    <p>
+                        480.924.4115
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
-    
-<!-- Testimonials -->
-    
-    <section class="orangebox">
-        <div class="container" id="testimonials">
-            <div class="row">
-                <div class="col-md-12 text-vertical-center" style="padding-bottom: 25px">
-                    <h2>
-                        What our customers have to say...
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <blockquote>
-                        <em>
-                            My initial impression never changed throughout the entire process, they did everything they said they were going to do when they said they were going to do it. The final cost was exactly what they said it was going to be, it was done faster than we expected, and we couldn’t be happier with our new playroom.
-                        </em>
-                        <h4>
-                            — Kevin K.
-                        </h4>
-                    </blockquote>
-                </div>
-                <div class="col-md-4">
-                    <blockquote>
-                        <em>
-                            I let Tequa do my work and thought I would get the same old stuff: change orders, and added costs through out the job, but I didn’t, and because of this I have a better regard for contractors now. They did the work on time, for the original amount of money and they even did more work that I asked them to do, for no added cost. I will use them again and will let everyone I know to call them for any construction projects they have. Thanks guys!
-                        </em>
-                        <h4>
-                            — John Y.
-                        </h4>
-                    </blockquote>
-                </div>
-                <div class="col-md-4">
-                    <blockquote>
-                        <em>
-                            Tequa did a major remodel throughout my home, with very little disruption to my wife and I. The work was substantial and there were no hidden costs when the job was completed. They did it in a shorter amount of time than they anticipated, and within the original budget. They will get referrals from us. Great job, thank you.
-                        </em>
-                        <h4>
-                            — Lou C.
-                        </h4>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
 
 <!-- Footer -->
     

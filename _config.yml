@@ -1,6 +1,6 @@
 title: Tequa Builders
 email: jd@tequabuilders.com
-description: Make your dream home a reality
+description: Make your dream home a reality!
 baseurl: ""
 url: "http://tequabuilders.com"
 logo: /img/logo-lrg.png
@@ -9,6 +9,7 @@ logo: /img/logo-lrg.png
 # Build settings
 markdown: kramdown
 # theme: minima
+permalink: pretty
 
 # Compress Sass
 sass:
@@ -18,3 +19,4 @@ sass:
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-last-modified-at

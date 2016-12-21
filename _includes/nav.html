@@ -22,7 +22,9 @@
                         {% assign active_class = "" %}
                     {% endif %}
 
-                    <a href="{{site.baseurl}}/{{ item.path }}"><button class="{{active_class}}">{{ item.name }}</button></a>
+                    <a href="{{site.baseurl}}/{{ item.path }}">
+                        <button class="{{active_class}}">{{ item.name }}</button>
+                    </a>
                 {% endfor %}
             </div>
             

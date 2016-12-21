@@ -1,6 +1,6 @@
 User-agent: *
-Disallow: /pricing
-Disallow: /pricing/
-Disallow: /pricing/index.html
+Disallow: /thanks
+Disallow: /thanks/
+Disallow: /thanks/index.html
 Disallow: /Gemfile
 Disallow: /Gemfile.lock
